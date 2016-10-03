@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		005D57666B81F8BABBAA66EA4DA88ED1 /* FakePod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DEE96808F98B4597A690217916D2AB96 /* FakePod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		031E39571DA1E24A00C10153 /* FPPerson.h in Headers */ = {isa = PBXBuildFile; fileRef = 031E39551DA1E24A00C10153 /* FPPerson.h */; };
+		031E39581DA1E24A00C10153 /* FPPerson.h in Headers */ = {isa = PBXBuildFile; fileRef = 031E39551DA1E24A00C10153 /* FPPerson.h */; };
+		031E39591DA1E24A00C10153 /* FPPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 031E39561DA1E24A00C10153 /* FPPerson.m */; };
+		031E395A1DA1E24A00C10153 /* FPPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 031E39561DA1E24A00C10153 /* FPPerson.m */; };
+		18585611E58DC52FCA6F737E54FDE667 /* FakePod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5E85296863069D07BF723822F97166 /* FakePod-dummy.m */; };
+		5408483A60E608011F25EFE8C4C8F9B5 /* Pods-FakePod_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A05CB20E051828AB9DDAFA7910D1B49 /* Pods-FakePod_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		717D7BE67500BDC7C49F8CEB0E74BDDC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		71C3FD926A64D517835DE7B643EF944E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		FD66A61A1A891E454CACE573C67C1E48 /* Pods-FakePod_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1110398D7EEEA918E514A8084332BD90 /* Pods-FakePod_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A8E1C09151D331E5D91038DA4B416C78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAD2125002D3C5AD639B59B384812C84;
+			remoteInfo = FakePod;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01B787A4A79949B4C13B9C4381F2C3BB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02CC3C13C2809A2AEF2DD32D7496C883 /* FakePod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FakePod-prefix.pch"; sourceTree = "<group>"; };
+		031E39551DA1E24A00C10153 /* FPPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPPerson.h; sourceTree = "<group>"; };
+		031E39561DA1E24A00C10153 /* FPPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPPerson.m; sourceTree = "<group>"; };
+		0D20D50A0C3364B8CBEFA65C64944EC0 /* Pods-FakePod_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FakePod_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1110398D7EEEA918E514A8084332BD90 /* Pods-FakePod_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FakePod_Tests-dummy.m"; sourceTree = "<group>"; };
+		16FB1CFEA3F6B4D6B11D868CAC012888 /* FakePod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FakePod.xcconfig; sourceTree = "<group>"; };
+		28E02DED4C1B4C50D5DEA9AEEE8D7192 /* FakePod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FakePod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EC251C1062E28E33DA9ECBD9CC02135 /* FakePod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FakePod.modulemap; sourceTree = "<group>"; };
+		4A05CB20E051828AB9DDAFA7910D1B49 /* Pods-FakePod_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FakePod_Tests-umbrella.h"; sourceTree = "<group>"; };
+		7F5E85296863069D07BF723822F97166 /* FakePod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FakePod-dummy.m"; sourceTree = "<group>"; };
+		828303B876D60F45E722C479A67F0B47 /* Pods-FakePod_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FakePod_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D8EAC745B28739B3CBC471727AE04B1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A116D1AC373F2CEB842DB18F2A3BF72B /* Pods-FakePod_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FakePod_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		B5237462E2EB4048F2DFD34E79CE4084 /* Pods-FakePod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FakePod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C0C6F529CF9168A3601FBB6E28FCB2DD /* Pods_FakePod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FakePod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4C6B4D9631A154E7C5D7FD13BE95A5E /* Pods-FakePod_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FakePod_Tests-resources.sh"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CFE50A2DE65C4B838CE429410C6C860B /* Pods-FakePod_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FakePod_Tests.modulemap"; sourceTree = "<group>"; };
+		DEE96808F98B4597A690217916D2AB96 /* FakePod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FakePod-umbrella.h"; sourceTree = "<group>"; };
+		E7FDCC4C6F3734C328B97C20E30DECB7 /* Pods-FakePod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FakePod_Tests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6FAC5B6343935F976A73EE60AB8B83E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71C3FD926A64D517835DE7B643EF944E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD19D5416E7FC2111E034A9A837C610A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				717D7BE67500BDC7C49F8CEB0E74BDDC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E86F94553FF0B8B66E40A220E035E3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C675435AE765BCE876860F853379F0A /* Pods-FakePod_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2C675435AE765BCE876860F853379F0A /* Pods-FakePod_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9D8EAC745B28739B3CBC471727AE04B1 /* Info.plist */,
+				CFE50A2DE65C4B838CE429410C6C860B /* Pods-FakePod_Tests.modulemap */,
+				828303B876D60F45E722C479A67F0B47 /* Pods-FakePod_Tests-acknowledgements.markdown */,
+				0D20D50A0C3364B8CBEFA65C64944EC0 /* Pods-FakePod_Tests-acknowledgements.plist */,
+				1110398D7EEEA918E514A8084332BD90 /* Pods-FakePod_Tests-dummy.m */,
+				A116D1AC373F2CEB842DB18F2A3BF72B /* Pods-FakePod_Tests-frameworks.sh */,
+				C4C6B4D9631A154E7C5D7FD13BE95A5E /* Pods-FakePod_Tests-resources.sh */,
+				4A05CB20E051828AB9DDAFA7910D1B49 /* Pods-FakePod_Tests-umbrella.h */,
+				B5237462E2EB4048F2DFD34E79CE4084 /* Pods-FakePod_Tests.debug.xcconfig */,
+				E7FDCC4C6F3734C328B97C20E30DECB7 /* Pods-FakePod_Tests.release.xcconfig */,
+			);
+			name = "Pods-FakePod_Tests";
+			path = "Target Support Files/Pods-FakePod_Tests";
+			sourceTree = "<group>";
+		};
+		34ECB3A551D27290A6C9D1630B4D76AD /* FakePod */ = {
+			isa = PBXGroup;
+			children = (
+				477209C6E9226C16CEE2E0AB7CC9C84C /* Classes */,
+			);
+			path = FakePod;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		477209C6E9226C16CEE2E0AB7CC9C84C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				031E39551DA1E24A00C10153 /* FPPerson.h */,
+				031E39561DA1E24A00C10153 /* FPPerson.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		70A49F3848B27B4BF3DB067AB26B0531 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28E02DED4C1B4C50D5DEA9AEEE8D7192 /* FakePod.framework */,
+				C0C6F529CF9168A3601FBB6E28FCB2DD /* Pods_FakePod_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				8786F4BCA89FD2483E25DCEF39EB06D6 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				70A49F3848B27B4BF3DB067AB26B0531 /* Products */,
+				00E86F94553FF0B8B66E40A220E035E3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8786F4BCA89FD2483E25DCEF39EB06D6 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D2B2DE4B0D8FE610740467F9FA6ACC06 /* FakePod */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A82FCF5D537B676381F144007CAEC40C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2EC251C1062E28E33DA9ECBD9CC02135 /* FakePod.modulemap */,
+				16FB1CFEA3F6B4D6B11D868CAC012888 /* FakePod.xcconfig */,
+				7F5E85296863069D07BF723822F97166 /* FakePod-dummy.m */,
+				02CC3C13C2809A2AEF2DD32D7496C883 /* FakePod-prefix.pch */,
+				DEE96808F98B4597A690217916D2AB96 /* FakePod-umbrella.h */,
+				01B787A4A79949B4C13B9C4381F2C3BB /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FakePod";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2B2DE4B0D8FE610740467F9FA6ACC06 /* FakePod */ = {
+			isa = PBXGroup;
+			children = (
+				34ECB3A551D27290A6C9D1630B4D76AD /* FakePod */,
+				A82FCF5D537B676381F144007CAEC40C /* Support Files */,
+			);
+			name = FakePod;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3A7CFC06B705FEC0A8E75AC56126A348 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				005D57666B81F8BABBAA66EA4DA88ED1 /* FakePod-umbrella.h in Headers */,
+				031E39571DA1E24A00C10153 /* FPPerson.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FBA5381E911BBC06DA10F6A4E3E32A7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5408483A60E608011F25EFE8C4C8F9B5 /* Pods-FakePod_Tests-umbrella.h in Headers */,
+				031E39581DA1E24A00C10153 /* FPPerson.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0B781B0DEFAB3636BF06ACE3AB27CD0D /* Pods-FakePod_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4D9BD50D05DAA00D09AF60807A32988 /* Build configuration list for PBXNativeTarget "Pods-FakePod_Tests" */;
+			buildPhases = (
+				62C55E00251B77A00F336BF5E5ADD859 /* Sources */,
+				6FAC5B6343935F976A73EE60AB8B83E7 /* Frameworks */,
+				8FBA5381E911BBC06DA10F6A4E3E32A7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3836870EA6A806529DAE2FC461059DDF /* PBXTargetDependency */,
+			);
+			name = "Pods-FakePod_Tests";
+			productName = "Pods-FakePod_Tests";
+			productReference = C0C6F529CF9168A3601FBB6E28FCB2DD /* Pods_FakePod_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BAD2125002D3C5AD639B59B384812C84 /* FakePod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCFF18B85D70C0CB03E4291FE0D65AB4 /* Build configuration list for PBXNativeTarget "FakePod" */;
+			buildPhases = (
+				155E3A6B96BF9D61E06660C7B85E71C2 /* Sources */,
+				CD19D5416E7FC2111E034A9A837C610A /* Frameworks */,
+				3A7CFC06B705FEC0A8E75AC56126A348 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FakePod;
+			productName = FakePod;
+			productReference = 28E02DED4C1B4C50D5DEA9AEEE8D7192 /* FakePod.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 70A49F3848B27B4BF3DB067AB26B0531 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAD2125002D3C5AD639B59B384812C84 /* FakePod */,
+				0B781B0DEFAB3636BF06ACE3AB27CD0D /* Pods-FakePod_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		155E3A6B96BF9D61E06660C7B85E71C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18585611E58DC52FCA6F737E54FDE667 /* FakePod-dummy.m in Sources */,
+				031E39591DA1E24A00C10153 /* FPPerson.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62C55E00251B77A00F336BF5E5ADD859 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				031E395A1DA1E24A00C10153 /* FPPerson.m in Sources */,
+				FD66A61A1A891E454CACE573C67C1E48 /* Pods-FakePod_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3836870EA6A806529DAE2FC461059DDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FakePod;
+			target = BAD2125002D3C5AD639B59B384812C84 /* FakePod */;
+			targetProxy = A8E1C09151D331E5D91038DA4B416C78 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		023A237C1A63A14C9521416DD14CB10C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16FB1CFEA3F6B4D6B11D868CAC012888 /* FakePod.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FakePod/FakePod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FakePod/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FakePod/FakePod.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FakePod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		77D102507A02EABA2204BC09CC990F5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5237462E2EB4048F2DFD34E79CE4084 /* Pods-FakePod_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FakePod_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FakePod_Tests/Pods-FakePod_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FakePod_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A127D61FC4A50C9BE174638771267F09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7FDCC4C6F3734C328B97C20E30DECB7 /* Pods-FakePod_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FakePod_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FakePod_Tests/Pods-FakePod_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FakePod_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E7B7CA6098E1E8256F94DB34A8605FAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16FB1CFEA3F6B4D6B11D868CAC012888 /* FakePod.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FakePod/FakePod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FakePod/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FakePod/FakePod.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = FakePod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
+				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4D9BD50D05DAA00D09AF60807A32988 /* Build configuration list for PBXNativeTarget "Pods-FakePod_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77D102507A02EABA2204BC09CC990F5C /* Debug */,
+				A127D61FC4A50C9BE174638771267F09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCFF18B85D70C0CB03E4291FE0D65AB4 /* Build configuration list for PBXNativeTarget "FakePod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				023A237C1A63A14C9521416DD14CB10C /* Debug */,
+				E7B7CA6098E1E8256F94DB34A8605FAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

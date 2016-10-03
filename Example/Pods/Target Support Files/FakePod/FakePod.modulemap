@@ -1,0 +1,6 @@
+framework module FakePod {
+  umbrella header "FakePod-umbrella.h"
+
+  export *
+  module * { export * }
+}

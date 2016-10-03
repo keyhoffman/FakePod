@@ -1,0 +1,16 @@
+PODS:
+  - FakePod (0.1.0)
+
+DEPENDENCIES:
+  - FakePod (from `../`)
+
+EXTERNAL SOURCES:
+  FakePod:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FakePod: 4b402f93cfe8e87f66d999cd7bc8ad3222bb1193
+
+PODFILE CHECKSUM: d073f743ddfc9fd92f2d22ab759c2447feefe998
+
+COCOAPODS: 1.0.1
