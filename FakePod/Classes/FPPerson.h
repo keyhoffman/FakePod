@@ -13,7 +13,7 @@
 @property (nonnull, nonatomic, copy)NSString *name;
 @property (nonatomic)int age;
 
-- (nonnull instancetype)initWithName:(NSString *)name
+- (nonnull instancetype)initWithName:(nonnull NSString *)name
                                  age:(int)age;
 
 
