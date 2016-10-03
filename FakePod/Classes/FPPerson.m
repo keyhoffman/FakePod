@@ -10,11 +10,12 @@
 
 @implementation FPPerson
 
-- (instancetype)initWithName:(NSString *)name age:(int)age {
+- (instancetype)initWithName:(NSString *)name friendName:(NSString *)friendName age:(int)age {
     self = [super init];
     
     if (self) {
         _name = name;
+        _friendName = friendName;
         _age = age;
     }
     

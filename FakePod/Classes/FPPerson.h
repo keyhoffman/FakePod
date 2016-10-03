@@ -11,9 +11,11 @@
 @interface FPPerson : NSObject
 
 @property (nonnull, nonatomic, copy)NSString *name;
+@property (nonnull, nonatomic, copy)NSString *friendName;
 @property (nonatomic)int age;
 
 - (nonnull instancetype)initWithName:(nonnull NSString *)name
+                          friendName:(nonnull NSString *)friendName
                                  age:(int)age;
 
 
