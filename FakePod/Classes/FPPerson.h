@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <CocoaLumberjack/CocoaLumberjack.h>
+#import <Realm/Realm.h>
 
 @interface FPPerson : NSObject
 
